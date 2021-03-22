@@ -4,7 +4,7 @@
 void main()
 {
 	int list[5];
-	int* plist[5] = { null, };  //포인터 배열 선언
+	int* plist[5] = {NULL, };  //포인터 배열 선언
 
 	plist[0] = (int*)malloc(sizeof(int));   //plist[0]에 할당된 동적메모리의 주소 저장
 
